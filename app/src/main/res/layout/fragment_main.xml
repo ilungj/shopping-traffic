@@ -1,0 +1,114 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="How about this store?"
+            android:textSize="32dp"
+            android:textColor="@color/colorAccent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/greeting2" />
+
+        <TextView
+            android:text="Hey!"
+            android:textSize="58dp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginBottom="20dp"
+            android:layout_above="@id/greeting2"
+            android:layout_alignLeft="@id/greeting2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/greeting1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-20dp"
+            app:srcCompat="@drawable/oval"
+            android:id="@+id/bottomOval" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/bubble6"
+            android:layout_marginBottom="-100dp"
+            android:id="@+id/bubble7" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/bubble5"
+            android:layout_marginBottom="-100dp"
+            android:id="@+id/bubble6" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/bubble4"
+            android:layout_marginBottom="-100dp"
+            android:id="@+id/bubble5" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/bubble0"
+            android:layout_marginBottom="-100dp"
+            android:id="@+id/bubble4" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/bubble2"
+            android:layout_marginBottom="-100dp"
+            android:id="@+id/bubble3" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/bubble1"
+            android:layout_marginBottom="-100dp"
+            android:id="@+id/bubble2" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/bubble0"
+            android:layout_marginBottom="-100dp"
+            android:id="@+id/bubble1" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-100dp"
+            android:id="@+id/bubble0" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/text" />
+
+</FrameLayout>
